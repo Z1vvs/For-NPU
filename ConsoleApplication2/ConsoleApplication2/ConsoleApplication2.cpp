@@ -9,40 +9,42 @@ int main()
 	setlocale(LC_ALL, "ukr");
 	SetConsoleOutputCP(CP_UTF8);
 
-	// Ім'я комп'ютера
-	string PCsName = "DESKTOP-RLMN2Q3";
-	// Скільки років комп'ютеру
-	unsigned short int PCsAge = 1;
-	// Вид операційної системи
-	string PCsSystemType = "Windows 10 Home";
-	// Чи працює комп'ютер?
-	bool IsComputerWorking = true;
-	// Відеоадаптер
-	string GPU = "NVIDIA GeForce GTX 1080 Ti";
-	// Процессор
-	string CPU = "Intel(R) Core(TM) i8-8700 CPU";
-	// Оперативна пам'ять (Гб)
-	unsigned short int RAM = 8;
-	// HDD
-	string HDD = "KINGSTON SA400M8240G 1 Tb";
+	// Назва гри
+	string GameName = "Backbone";
+	// Скільки коштує гра (CHF)
+	unsigned short int CostOfTheGame = 25;
+	// Скільки коштує гра з доповненнями (CHF)
+	float CostOfTheFullGame = 29.70;
+	// Місце, яке буде виділене на гру (Gb)
+	unsigned short int SpaceForTheGame = 1;
+	// Яка відеокарта потрібна
+	string GPUNeeded = "Nvidia GTX 950 or equivalent";
+	// Який процессор потрібен
+	string CPUNeeded = "Multi-core 2.5GHz or faster";
+	// Скільки оперативна пам'яті потрібно (Гб)
+	unsigned short int RAMNeeded = 8;
+	// Рекомендована операційна система
+	string OSNeeded = "Windows 7";
+	// Хто розробив гру
+	string GameDevsInfo = "EGGNUT";
 
-	unsigned int totalMemoryInBytes = sizeof(PCsName) +
-									sizeof(PCsAge) +
-									sizeof(PCsSystemType) +
-									sizeof(IsComputerWorking) +
-									sizeof(GPU) +
-									sizeof(CPU) +
-									sizeof(RAM) +
-									sizeof(HDD);
+	unsigned int totalMemoryInBytes = sizeof(GameName) +
+									sizeof(CostOfTheGame) +
+									sizeof(CostOfTheFullGame) +
+									sizeof(SpaceForTheGame) +
+									sizeof(GPUNeeded) +
+									sizeof(RAMNeeded) +
+									sizeof(OSNeeded) +
+									sizeof(GameDevsInfo);
 
-	cout << "Ім'я комп'ютера:\t\t\t" << PCsName << endl;
-	cout << "Скільки років комп'ютеру:\t\t" << PCsAge << endl;
-	cout << "Вид операційної системи:\t\t" << PCsSystemType << endl;
-	cout << "Чи працює комп'ютер?:\t\t\t" << ((IsComputerWorking) ? "Так" : "Ні") << endl;
-	cout << "Відеоадаптер:\t\t\t\t" << GPU << endl;
-	cout << "Процессор:\t\t\t\t" << CPU << endl;
-	cout << "Оперативна пам'ять (Гб):\t\t" << RAM << endl;
-	cout << "SDD:\t\t\t\t\t" << HDD << endl;
-	cout << "Об'єм використанної пам'ятi (в байтах):\t" << totalMemoryInBytes << endl;
+	cout << "Назва гри:\t\t\t\t\t" << GameName << endl;
+	cout << "Скільки коштує гра (CHF):\t\t\t" << CostOfTheGame << endl;
+	cout << "Скільки коштує гра з доповненнями (CHF):\t" << CostOfTheFullGame << endl;
+	cout << "Місце, яке буде виділене на гру (Gb):\t\t" << SpaceForTheGame << endl;
+	cout << "Яка відеокарта потрібна:\t\t\t" << GPUNeeded << endl;
+	cout << "Який процессор потрібен:\t\t\t" << RAMNeeded << endl;
+	cout << "Скільки оперативна пам'яті потрібно (Гб):\t" << OSNeeded << endl;
+	cout << "Хто розробив гру:\t\t\t\t" << GameDevsInfo << endl;
+	cout << "Об'єм використанної пам'ятi (в байтах):\t\t" << totalMemoryInBytes << endl;
 	return 0;
 }
