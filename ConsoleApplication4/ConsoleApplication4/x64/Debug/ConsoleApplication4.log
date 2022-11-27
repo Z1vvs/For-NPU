@@ -1,0 +1,3 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\EnragedSock\For-NPU\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(39,29): warning C4305: '=': truncation from 'double' to 'float'
+  ConsoleApplication4.vcxproj -> C:\Users\EnragedSock\For-NPU\ConsoleApplication4\x64\Debug\ConsoleApplication4.exe

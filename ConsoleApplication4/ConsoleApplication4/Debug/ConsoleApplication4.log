@@ -1,0 +1,4 @@
+﻿  ConsoleApplication4.cpp
+C:\Users\EnragedSock\For-NPU\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(12,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\EnragedSock\For-NPU\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(12,11): error C2059: syntax error: '<<'
+C:\Users\EnragedSock\For-NPU\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(12,67): error C2238: unexpected token(s) preceding ';'
