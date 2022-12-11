@@ -1,0 +1,3 @@
+﻿  ConsoleApplication5.cpp
+C:\Users\EnragedSock\For-NPU\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(27,10): warning C4101: 'RESULT': unreferenced local variable
+C:\Users\EnragedSock\For-NPU\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(10): error C4700: uninitialized local variable 'RESULT' used
