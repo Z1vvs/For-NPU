@@ -4,39 +4,39 @@ using std::cout;
 using std::endl;
 
 bool induct() {
-    bool XISANUMBEREQUALORLOWERTHAN5 = true;
-    bool YISEQUALTO5 = true;
-    bool EQUASIONISEQUALORLOWERTHAN25 = true;
-    bool RESULT = XISANUMBEREQUALORLOWERTHAN5 &&
-        YISEQUALTO5 &&
-        EQUASIONISEQUALORLOWERTHAN25;
+    bool ISXANUMBEREQUALORLOWERTHAN5 = true;
+    bool ISYEQUALTO5 = true;
+    bool ISEQUASIONEQUALORLOWERTHAN25 = true;
+    bool RESULT = ISXANUMBEREQUALORLOWERTHAN5 &&
+        ISYEQUALTO5 &&
+        ISEQUASIONEQUALORLOWERTHAN25;
     return RESULT;
 }
 
 bool deduct() {
-    bool XISNOTNOTANUMBEREQUALORLOWERTHAN5 = true;
-    bool YISNOTNOTEQUALTO5 = true;
-    bool EQUASIONISNOTNOTEQUALORLOWERTHAN25 = true;
-    bool ANOTHERRESULT = XISNOTNOTANUMBEREQUALORLOWERTHAN5 &&
-        YISNOTNOTEQUALTO5 &&
-        EQUASIONISNOTNOTEQUALORLOWERTHAN25;
+    bool ISXNOTNOTANUMBEREQUALORLOWERTHAN5 = true;
+    bool ISYNOTNOTEQUALTO5 = true;
+    bool ISEQUASIONNOTNOTEQUALORLOWERTHAN25 = true;
+    bool ANOTHERRESULT = ISXNOTNOTANUMBEREQUALORLOWERTHAN5 &&
+        ISYNOTNOTEQUALTO5 &&
+        ISEQUASIONNOTNOTEQUALORLOWERTHAN25;
     return ANOTHERRESULT;
 }
 
 int main() {
     setlocale(LC_ALL, "");
-    cout << "Iíäóêòèâíèé ìåòîä = " << induct() << endl;
-    cout << "Äåäóêòèâíèé ìåòîä = " << deduct() << endl;
-    cout << "Ïðîãðàìà ïðàöþº (÷åñíî) :)" << endl;
+    cout << "IÃ­Ã¤Ã³ÃªÃ²Ã¨Ã¢Ã­Ã¨Ã© Ã¬Ã¥Ã²Ã®Ã¤ = " << induct() << endl;
+    cout << "Ã„Ã¥Ã¤Ã³ÃªÃ²Ã¨Ã¢Ã­Ã¨Ã© Ã¬Ã¥Ã²Ã®Ã¤ = " << deduct() << endl;
+    cout << "ÃÃ°Ã®Ã£Ã°Ã Ã¬Ã  Ã¯Ã°Ã Ã¶Ã¾Âº (Ã·Ã¥Ã±Ã­Ã®) :)" << endl;
 }
 
 /*
-Ïðîãðàììèñò — ÷òî ýòî çíà÷èò?
-Ýòî ñèëüíûé ÷åëîâåê!
-Íàä ïðîãðàììîé íå çàïëà÷åò,
-À ðàáîòàòü áóäåò âåê,
-Ïóñòü æå ðàçíûå ïðîãðàììû
-Áûñòðî ïèøóòñÿ, ëåãêî!
-Ïóñòü ñâîèì óìîì âû ñàìè
-Äîáèâàåòåñü âñåãî!
+ÃÃ°Ã®Ã£Ã°Ã Ã¬Ã¬Ã¨Ã±Ã² â€” Ã·Ã²Ã® Ã½Ã²Ã® Ã§Ã­Ã Ã·Ã¨Ã²?
+ÃÃ²Ã® Ã±Ã¨Ã«Ã¼Ã­Ã»Ã© Ã·Ã¥Ã«Ã®Ã¢Ã¥Ãª!
+ÃÃ Ã¤ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã®Ã© Ã­Ã¥ Ã§Ã Ã¯Ã«Ã Ã·Ã¥Ã²,
+Ã€ Ã°Ã Ã¡Ã®Ã²Ã Ã²Ã¼ Ã¡Ã³Ã¤Ã¥Ã² Ã¢Ã¥Ãª,
+ÃÃ³Ã±Ã²Ã¼ Ã¦Ã¥ Ã°Ã Ã§Ã­Ã»Ã¥ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã»
+ÃÃ»Ã±Ã²Ã°Ã® Ã¯Ã¨Ã¸Ã³Ã²Ã±Ã¿, Ã«Ã¥Ã£ÃªÃ®!
+ÃÃ³Ã±Ã²Ã¼ Ã±Ã¢Ã®Ã¨Ã¬ Ã³Ã¬Ã®Ã¬ Ã¢Ã» Ã±Ã Ã¬Ã¨
+Ã„Ã®Ã¡Ã¨Ã¢Ã Ã¥Ã²Ã¥Ã±Ã¼ Ã¢Ã±Ã¥Ã£Ã®!
 */
